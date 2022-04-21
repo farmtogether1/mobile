@@ -5678,7 +5678,7 @@ display: none;
 																<img  class="heading__logo" src="./img/logoheading.png" alt="">
 																<style>
 																	.heading__logo{
-																		/*animation: fade 3s forwards infinite linear;*/
+																		animation: fade 2s forwards infinite linear;
 																		    transform: scale(2);
 																			margin-left: 137px;
 																			
@@ -5686,7 +5686,7 @@ display: none;
 																	}
 																	@keyframes fade {
 														to {
-															transform: scale(1.8);
+															transform: skewY(20px);
 															opacity: 0.5;
 														}
 													}
@@ -5849,8 +5849,24 @@ display: none;
 							height: 50%!important;
 
 						}
+						.glow2ab{
+							position: absolute;
+							top: 100px;
+							right: 100px;
+							width: 400px;
+							height: 400px;
+						}
+						.glow1ab{
+							position: absolute;
+							top: 200px;
+							left: 100px;
+							width: 400px;
+							height: 400px;
+						}
 					</style>
 					<img src="./img/Wireframe2.png" alt="" class="wire2ab">
+					<img src="./img/Glow.png" alt="" class="glow2ab">
+					<img src="./img/Glow.png" alt="" class="glow1ab">
 					<div class="elementor-container elementor-column-gap-default">
 						<div class="elementor-row mobilepicture">
 							<img src="./img/PhoneImage.png" alt="" >
@@ -5865,6 +5881,7 @@ display: none;
 								</ul>
 							</div>
 							<style>
+
 								.taptoheading{
 									color: var(--e-global-color-primary);
     								font-family: "Space Grotesk", Sans-serif;
